@@ -14,17 +14,27 @@
     <p id="description">explanation of the form</p>
 
     <form action="" id="survey-form">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your full name">
         <br>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <label for="email" id="email.-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your real email">
         <br>
 
-        <label for="numb">Number</label>
-        <input type="number" name="numb" id="numb" min="1" max="31">
+        <label for="numb" id="number-label">Number</label>
+        <input type="number" name="numb" id="numb" min="1" max="31" placeholder="Enter a number between 1 and 31">
         <br>
+
+        <label for="select">Choose one:</label>
+        <select name="choose" id="dropdown">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="None">None</option>
+        </select>
+        <br>
+
+        <label for="radio"></label>
 
 
 
